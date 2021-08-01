@@ -16,6 +16,7 @@
     "husky": "^7.0.1",
     "jest-transform-stub": "^2.0.0",
     "lint-staged": "^11.1.1",
+    "msw": "^0.33.0",
     "prettier": "^2.3.2",
     "react-scripts": "4.0.3",
     "ts-jest": "^26.5.0",
@@ -44,6 +45,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "msw": {
+    "workerDirectory": "public"
   },
   "husky": {
     "hooks": {
